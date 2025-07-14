@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application' version '8.2.2'
     id 'org.jetbrains.kotlin.android' version '1.9.22'
-    id 'org.jetbrains.kotlin.kapt' // ✅ 添加 kapt 插件，处理注解
+    id 'org.jetbrains.kotlin.kapt' version '1.9.22' // ✅ 添加 kapt 插件，处理注解
 }
 
 android {
