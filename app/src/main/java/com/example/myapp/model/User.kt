@@ -1,4 +1,4 @@
-package com.example.myapp
+package com.example.myapp.model
 
 data class User(
     val id: Int,
@@ -9,4 +9,4 @@ data class User(
     fun getDisplayName(): String {
         return "$name ($age)"
     }
-} 
+}
